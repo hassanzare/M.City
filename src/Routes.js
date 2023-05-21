@@ -5,7 +5,9 @@ import Footer from "./Components/Header-footer/footer";
 import Home from "./Components/Home/index";
 import SingIn from "./Components/Singin";
 
-const Root = () => {
+const Root = (props) => {
+  // console.log(props);
+
   return (
     <BrowserRouter>
       <Header />
